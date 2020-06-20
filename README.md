@@ -1,5 +1,5 @@
 <h1 align="center">
-    RocketSeat Webpage
+    Rocketseat Website
 </h1>
 
 <h1>
@@ -7,7 +7,7 @@
 </h1>
 
 <h1>
-<img src ="img/courses.png" align="center">
+<img src ="img/cursos.png" align="center">
 </h1>
 
 <h1>
@@ -16,7 +16,9 @@
 
 # 📋 About
 
-A project that I developed during Launchbase bootcamp from Rocketseat
+A project that I developed during the Launchbase bootcamp from Rocketseat. </br>
+
+In this challenge I should create an alternative page for their company, showing the different types of courses available and how to access them.
 
 ---
 
