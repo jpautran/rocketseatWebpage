@@ -1,0 +1,131 @@
+:root {
+    --color-purple: #662e9b;
+    --color-bg: #282a36;
+    --color-green: #50fa7b;
+    --color-orange: #f48c06;
+}
+
+#wrapper {
+    text-align: center;
+    padding: 32px;
+}
+
+#wrapper h1 {
+    font-size: 62px;
+    line-height: 72px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+#wrapper h1 a {
+    color: white;
+    text-decoration: none;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 1000px;
+    margin: 0 auto;
+    gap: 40px;
+}
+
+.card {
+   background-color: var(--color-purple);
+   border-radius: 8%;
+}
+
+.card:hover {
+    cursor: pointer;
+}
+
+.card__image-container img {
+    width: 90%;
+    padding: 10px;
+    margin: 0 auto;
+    justify-content: center;
+    height: 150px;
+}
+.card__content, .card__info {
+    padding: 24px;
+}
+
+.card__info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.card__price {
+    filter: brightness(90%);
+    padding: 5px 20px;
+    border: 1px solid var(--color-orange);
+    border-radius: 20px;
+    text-align: center;
+}
+
+.card__price:hover {
+    background: var(--color-orange);
+    color: var(--color-purple);
+    font-weight: bold;
+}
+
+.card__content {
+    text-align: center;
+    color: var(--color-orange);
+    font-weight: bold;
+}
+
+.modal-overlay {
+    background-color: rgba(0,0,0,0.7);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right:0;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.modal {
+    background-color: white;
+    width: 90%;
+    height: 90%;
+    margin: 5vh auto;
+    position: relative;
+}
+
+.modal .close-modal {
+    color: black;
+    position: absolute;
+    right: 14px;
+    top: 8px;
+    cursor: pointer;
+}
+
+.modal .maximize-modal {
+    color: black;
+    position: absolute;
+    right: 68px;
+    top: 8px;
+    cursor: pointer;
+}
+
+.modal-overlay.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+iframe {
+    width: 100%;
+    height: 90%;
+    position: absolute;
+    top: 5%;
+}
+
+.maximize {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}

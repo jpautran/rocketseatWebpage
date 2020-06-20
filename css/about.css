@@ -1,0 +1,68 @@
+#wrapper {
+    text-align: center;
+    padding: 32px;
+}
+
+#wrapper h1 {
+    font-size: 62px;
+    line-height: 72px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+#wrapper h1 a {
+    color: white;
+    text-decoration: none;
+}
+
+#wrapper h1 a:hover {
+    color: var(--color-purple);
+    cursor: pointer;
+}
+
+#wrapper img {
+    border-radius: 50%;
+    border: 5px solid var(--color-orange);
+    margin-bottom: 20px;
+    height: 300px;
+}
+
+#wrapper p {
+    max-width: 1200px;
+    margin: 22px auto;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+/*== TECHS ==*/
+
+.techs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.techs_list {
+    max-width: 60%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    list-style-type: none;
+}
+
+.techs_list li {
+    font-weight: 300;
+    max-width: 100px;
+    filter: brightness(90%);
+    padding: 5px 20px;
+    border: 2px solid var(--color-orange);
+    border-radius: 20px;
+    text-align: center;
+}
+
+.techs_list li:hover {
+    font-weight: bold;
+    background: var(--color-orange);
+    color: var(--color-purple);
+    cursor: pointer;
+}
