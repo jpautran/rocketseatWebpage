@@ -3,11 +3,11 @@
 </h1>
 
 <h1>
-<img src ="img/cursos.png" align="center">
+<img src ="img/content.png" align="center">
 </h1>
 
 <h1>
-<img src="img/webpage.gif" align="center">
+<img src="img/web.gif" align="center">
 </h1>
 
 # 📋 About
