@@ -3,10 +3,6 @@
 </h1>
 
 <h1>
-<img src ="img/sobre.png" align="center">
-</h1>
-
-<h1>
 <img src ="img/cursos.png" align="center">
 </h1>
 
@@ -35,7 +31,7 @@ This project was developed with:
 ```bash
 
 # Clone this repository using
-$ git clone https://github.com/jpautran/
+$ git clone https://github.com/jpautran/rocketseatWebpage
 
 ```
 ---

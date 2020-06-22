@@ -1,8 +1,8 @@
 :root {
     --color-purple: #662e9b;
-    --color-bg: #282a36;
+    --color-bg: #191b24;
     --color-green: #50fa7b;
-    --color-orange: #f48c06;
+    --color-orange: #fd951f;
 }
 
 #wrapper {
@@ -31,8 +31,9 @@
 }
 
 .card {
-   background-color: var(--color-purple);
-   border-radius: 8%;
+    background: rgba(0, 0, 0, 0.103);
+    border: 3px solid var(--color-purple);
+    border-radius: 8%;
 }
 
 .card:hover {
@@ -46,7 +47,7 @@
     justify-content: center;
     height: 150px;
 }
-.card__content, .card__info {
+.card__info {
     padding: 24px;
 }
 
@@ -69,10 +70,40 @@
     font-weight: bold;
 }
 
-.card__content {
+.card__number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card__number p {
+    padding: 10px;
     text-align: center;
-    color: var(--color-orange);
     font-weight: bold;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    border: 3px solid #000;
+    text-align: center;
+    font: 26px 'Roboto', sans-serif;
+
+}
+
+p.purple {
+    color: #7159c1;
+    border: 3px solid #7159c1;
+}
+
+p.orange {
+    color: var(--color-orange);
+    border: 3px solid var(--color-orange);
+}
+
+p.green {
+    color: #04d361;
+    border: 3px solid #04d361;
 }
 
 .modal-overlay {
